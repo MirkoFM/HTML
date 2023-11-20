@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:LightPink;}
+h1{
+color:darkred;
+font-size:55px;
+font-family:impact;}
+
+ul{
+font-size:20px;
+color:FireBrick;}
+p{
+font-family:impact;}
+a{
+color:Crimson;
+font-size:25px;
+}
+ol{
+color:purple;
+font-size:20px;}
+
+</style>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title>Nuova esercitazione</title>
+</head>
+<body>
+<h1>La prima squadra di MILANO</h1> <!--Titolo della pagina!-->
+<p>Il milan è una società  con sede a milano in lomabardia e gioca nel campionato più prestigioso d'Italia ovvero la seria A</p> <!--Spiegazioni nel paragrafo!-->
+<p> Il milan gioca nello Stadio San Siro a  milano che con i suoi 80.000 posti ospita grandi partite tra campionato e champions e lo condivide con l'inter un'altra società calcistica</p>
+<ul>
+<li>Sito Ufficiale ---> <a href="https://www.acmilan.com/it">Sito milan</a></li> <!--Liste e link!-->
+<li>Partite ---><a href="https://singletickets.acmilan.com/">Biglietteria x partite</a></li>
+<li>Abbigliamento ---><a href="https://store.acmilan.com/">Shop</a></li>
+</ul>
+<ol>
+<li> 19 Scudetti</li>
+<li>7 Champions League</li>
+<li>5 Coppe Italia</li>
+</ol>
+<img src="milan1.jpg" alt="stemma" heigth="500" width="500"><img src="scudetto.jpg" alt="scudetto numero 19" heigth="500" width="500"><br> <!--Immagini!-->
+ <p>Acquisto merchandising Milan: </p> 
+ <form>
+  <label for="fname">Nome:</label>
+  <input type="text" id="fname" name="fname"><br> 
+  <label for="email">Mail:</label>
+  <input type="email" id="email" name="email"><br> 
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd"><br> 
+  <input type="submit" value="Invia">
+  </form>
+
+</body>
+</html>
