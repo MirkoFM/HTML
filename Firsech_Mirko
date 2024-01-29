@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table, th, td {
+  border:4px solid black;
+  background-color:LightGreen;
+}
+body{
+background: url(https://a.cdn-hotels.com/gdcs/production68/d1314/b12f79e7-bcce-4cac-96f8-33f98b9bfb88.jpg);}
+
+h1{
+border: 5px dotted orange;
+text-align: center;
+color: red;
+}
+h3{
+border: 5px dotted yellow;
+text-align: center;
+color: white;}
+
+h2{
+background: Cyan;
+}
+div{
+background-color:Pink;
+border-width: 7px;
+border-style:double;
+border-color: Blue;
+text-align: center;
+}
+p{
+border: 5px solid blue;
+padding-top: 20px;
+padding-bottom: 30px;
+text-align:center;
+font-family:italic;
+}
+</style>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title>Firsech Mirko Mattia</title>
+</head>
+<body>
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "30px"; 
+  document.getElementById("demo").style.color = "yellow";
+  document.getElementById("demo").style.backgroundColor = "violet";        
+}
+</script>
+
+<h1>Ruben Loftus-Cheek</h1>
+<div>
+<h2>Piccola descrizione</h2>
+<p>Ruben Loftus-Cheek è <a href="https://it.wikipedia.org/wiki/Ruben_Loftus-Cheek"> un mio salvatore al fantacalcio </a></p>
+</div>
+<a href="https://www.transfermarkt.it/ruben-loftus-cheek/profil/spieler/202886">
+<img src="ruben.jpg" alt="giocatore" style="width:45%;">
+</a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdHmG_lIFsQ?si=bR-f_R5xDxvqs-iL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<button type="button" onclick="myFunction()">Cliccami per cambiare tutta la tabella !</button>
+<table id="demo">
+  <h2>Tabella compagni</h2>
+  <tr>
+  <th>Giocatori</th>
+    <th>Panchina</th>
+    <th>Titolari</th>
+ <tr>
+    <td>Staff</td>
+    <td><ol><li>Luka Romero</li>
+    <li>Noah Okafor</li>
+    <li>Davide Bartesaghi</li></ol></td>
+   
+
+
+    <td><ul><li>Ruben Loftus-Cheek</li>
+    <li>Rafael Leao</li>
+    <li>Theo Hernandez</li></ul></td>
+    
+  
+</tr>
+<td> Medici</td>
+<td></td>
+<td>Pioli</td>
+</table><img src="form.jpg" alt="formazione" usemap="#mappa" >
+
+<map name="mappa">
+  <area shape="rect" coords="34,44,270,350" alt="Gazzetta" href="https://www.acmilan.com/it">
+  <area shape="rect" coords="290,172,333,250" alt="Wikipedia" href="https://www.legaseriea.it/it">
+  
+</map>
+
+
+<div class="mybox">
+ <h3>Dati giocatore</h3>
+<p>Ruben Loftus-Cheek è un calciatore inglese, centrocampista del Milan, Di origini guyanesi, è nato a Lewisham, Londra,ed è cresciuto a Swanley, nel Kent, dove ha frequentato la scuola primaria. È fratello, da parte di padre, di Carl Cort e Leon Cort, entrambi ex calciatori professionisti
+ è un centrocampista moderno, centrale, in grado di svolgere entrambe le fasi di gioco. In possesso di una totale visione del campo, è in grado di effettuare passaggi con estrema precisione. Supportato inoltre da una notevole stazza fisica, a queste caratteristiche abbina doti da incontrista che lo rendono prezioso anche in fase di non possesso. Ha dichiarato d'ispirarsi all'ex Chelsea Frank Lampard.
+Tra le sue doti spiccano inoltre - oltre allo stacco aereo - intelligenza tattica una discreta agilità e l'abilità ad inserirsi tra gli spazi pur non essendo particolarmente prolifico sotto rete.</p>
+</div>
+
+</body>
+</html>
